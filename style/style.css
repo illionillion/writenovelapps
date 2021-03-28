@@ -1,0 +1,25 @@
+*{
+  /* outline: 1px solid black; */
+  margin: 0;
+}
+
+body{
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+
+#text{
+  background-image: linear-gradient(90deg, transparent 31px, #333 32px);
+  /* 透明を 31px まで続けて 32pxめに #333 の色になる垂直のグラデーション */
+  background-size: 32px;
+  /* ↑この模様は32px */
+  /* writing-mode: vertical-rl; */
+  /* text-orientation: upright; */
+  /* すべて縦方向に表示 */
+  outline: 1px solid black;
+
+}
+
+#text div{
+  outline: 1px solid black;
+}
