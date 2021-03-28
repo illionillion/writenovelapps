@@ -3,23 +3,40 @@
   margin: 0;
 }
 
-body{
+/* body{
   writing-mode: vertical-rl;
   text-orientation: upright;
-}
+} */
+
+/* header{
+  position: fixed;
+} */
 
 #text{
-  background-image: linear-gradient(90deg, transparent 31px, #333 32px);
+  /* background-image: linear-gradient(90deg, transparent 31px, #333 32px); */
   /* 透明を 31px まで続けて 32pxめに #333 の色になる垂直のグラデーション */
-  background-size: 32px;
+  /* background-size: 32px; */
+  /* font-size: 1rem; */
   /* ↑この模様は32px */
   /* writing-mode: vertical-rl; */
   /* text-orientation: upright; */
   /* すべて縦方向に表示 */
   outline: 1px solid black;
+  /* display: flex;
+  flex-direction: row; */
+  writing-mode: vertical-rl;
+  text-orientation: upright;     
+  height: 100%;
+  width: 100%;
+  /* text-decoration: underline;
+  text-decoration-color: black; */
 
 }
 
 #text div{
-  outline: 1px solid black;
+  /* border-left:git 1px solid black; */
+  border-right: 1px solid black;
+
+  /* outline: 1px solid black; */
+
 }

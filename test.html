@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+
+      /* body{
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+      } */
+
+      .parent {
+        background: lightgreen;
+        height: 300px;
+        width: 200px;
+
+        /* フレックスコンテナであることを指定 */
+        display: flex;
+
+        /* テキストを縦書きに指定 */
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+
+        /* 左右中央揃え */
+        align-items: center;
+      }
+    </style>
+   </head>
+   <body>
+     <header>
+       header
+     </header>
+     <div contenteditable="true" class="parent">
+       <!-- 今は昔、竹取の翁といふものありけり -->
+     </div>
+   </body>
+</html>
